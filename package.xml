@@ -4,13 +4,18 @@
   <name>ros2_service_server</name>
   <version>0.0.0</version>
   <description>Assignment: ROS2 Service Server</description>
+
   <maintainer email="student@university.edu">Student Name</maintainer>
   <license>Apache-2.0</license>
 
+  <!-- Build Tool -->
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <!-- TODO: Add dependencies for rclcpp and example_interfaces -->
+  <!-- Runtime + Build Dependencies -->
+  <depend>rclcpp</depend>
+  <depend>example_interfaces</depend>
 
+  <!-- Testing Dependencies -->
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
